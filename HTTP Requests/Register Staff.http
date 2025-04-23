@@ -1,0 +1,13 @@
+### Register Staff User (Marketing)
+POST http://localhost:3010/api/users/ HTTP/1.1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODA4OWQ4MjQ4MWQ5OTViNmJhYzc4NGMiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDUzOTYwNzZ9.H8A23o70ZffV2f62a0BTPFdvpvBh8xZFgeI4ED3xgjU
+Content-Type: application/json
+
+{
+  "name": "Bashir",
+  "email": "bashir@marketingpros.com",
+  "password": "Bashir@123",
+  "phone": "9876543210",
+  "address": "456 Office Rd, City",
+  "role": "support"
+}
