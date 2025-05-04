@@ -1,0 +1,38 @@
+### POST a new product
+POST http://localhost:3010/api/products/
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODA4OWQ4MjQ4MWQ5OTViNmJhYzc4NGMiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDU0MDcxMjR9.Lidmmkq68mW6NLX7TL3OuS7exPSw_El4b138K1Smbww
+
+{
+  "name": "Butterfly Loafers",
+  "brand": "ShoeBoss",
+  "collection": "6808cce8b5215ab61dfb504d",
+  "category": "Loafers",
+  "gender": "Men",
+  "variants": [
+    {
+      "colorName": "Yellow",
+      "hexCode": "#8B4513",
+      "images": ["https://example.com/images/loafers-brown1.jpg"],
+      "sizes": [
+        { "size": 40, "stock": 15 },
+        { "size": 41, "stock": 11 },
+        { "size": 42, "stock": 10 },
+        { "size": 43, "stock": 10 }
+      ]
+    },
+    {
+      "colorName": "Black",
+      "hexCode": "#000000",
+      "images": ["https://example.com/images/loafers-black1.jpg"],
+      "sizes": [
+        { "size": 40, "stock": 8 },
+        { "size": 42, "stock": 5 }
+      ]
+    }
+  ],
+  "price": 109.99,
+  "discount": 10,
+  "description": "Elegant and durable loafers perfect for formal and casual wear.",
+  "isFeatured": true
+}

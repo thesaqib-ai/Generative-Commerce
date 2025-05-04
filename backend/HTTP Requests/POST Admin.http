@@ -1,0 +1,8 @@
+### Create Admin User
+POST http://localhost:3010/api/users/login
+Content-Type: application/json
+
+{
+  "email": "thesaqib370@gmail.com",
+  "password": "saqib123"
+}

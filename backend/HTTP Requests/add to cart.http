@@ -1,0 +1,21 @@
+POST http://localhost:3010/api/carts
+Content-Type: application/json
+
+{
+  "email": "testuser@example.com",
+  "phone": "03001234567",
+  "items": [
+    {
+      "product_id": "6808d48db8d0431ece74c7c7",
+      "color": "Brown",
+      "size": "40",
+      "qty": 2
+    },
+    {
+      "product_id": "6809902ab8d0431ece74c7d0",
+      "color": "Yellow",
+      "size": "42",
+      "qty": 1
+    }
+  ]
+}
