@@ -1,21 +1,21 @@
 PUT http://localhost:3010/api/carts
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE4NjEyYmY0NGE1NmQ3MTQwYmM5MzEiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDY0MjgyMDN9.feJqxlYs78adOJrcKnKMXqcuYdW50eW5RSRWkP4ErBE
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE4M2M2MTZkNjJlYzFkNDMzYjFjNzgiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDY0MTg3ODV9.fJN3JniU_GSk93PBtTybOdTvi_335tWhP9CWXJ-tfQ8
 
 {
-  "email": "bashiraa@gmail.com",
+  "email": "bashira@gmail.com",
   "phone": "9876543210",
   "items": [
     {
       "product_id": "6808d48db8d0431ece74c7c7",
       "color": "Brown",
-      "size": 40,
+      "size": "40",
       "qty": 2
     },
     {
       "product_id": "6809902ab8d0431ece74c7d0",
       "color": "Yellow",
-      "size": 42,
+      "size": "42",
       "qty": 1
     }
   ]

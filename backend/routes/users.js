@@ -7,7 +7,7 @@ const { User, validateUser } = require('../models/user');
 const authorize = require('../middleware/auth');
 
 // Role-based registration endpoint
-router.post('/', authorize, async (req, res) => {
+router.post('/', async (req, res) => {
     const { error } = validateUser(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 

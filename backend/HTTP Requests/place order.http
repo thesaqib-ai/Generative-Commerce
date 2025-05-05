@@ -1,0 +1,6 @@
+### Create new order using items from user's cart
+POST http://localhost:3010/api/orders
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE4M2M2MTZkNjJlYzFkNDMzYjFjNzgiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDY0MTg3ODV9.fJN3JniU_GSk93PBtTybOdTvi_335tWhP9CWXJ-tfQ8
+Content-Type: application/json
+
+{}

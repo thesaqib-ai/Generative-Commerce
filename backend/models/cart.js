@@ -8,7 +8,7 @@ const cartItemSchema = new mongoose.Schema({
     required: true
   },
   color: String,
-  size: String,
+  size: Number,
   qty: {
     type: Number,
     required: true,
@@ -54,7 +54,7 @@ function validateCart(cart) {
       Joi.object({
         product_id: Joi.string().required(),
         color: Joi.string().required(),
-        size: Joi.string().required(),
+        size: Joi.number().required(),
         qty: Joi.number().min(1).required()
       })
     ).required()
