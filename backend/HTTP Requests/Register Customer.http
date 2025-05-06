@@ -1,10 +1,11 @@
 ### Register Staff User (Marketing)
 POST http://localhost:3010/api/users/ HTTP/1.1
-Content-Type: application/application/json
+Content-Type: application/json
+
 {
-  "name": "Bashiraa",
-  "email": "bashiraa@gmail.com",
-  "password": "Bashira@123",
+  "name": "Usman",
+  "email": "usman@gmail.com",
+  "password": "Usmana@123",
   "phone": "9876543210",
   "address": "456 Office Rd, City"
 }

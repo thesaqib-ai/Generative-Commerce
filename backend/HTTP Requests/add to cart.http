@@ -1,9 +1,9 @@
-PUT http://localhost:3010/api/carts
+POST http://localhost:3010/api/carts
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE4NjEyYmY0NGE1NmQ3MTQwYmM5MzEiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDY0MjgyMDN9.feJqxlYs78adOJrcKnKMXqcuYdW50eW5RSRWkP4ErBE
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE5YzJiOTRlZGQ0NDM4MTg2MWVhMzEiLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDY1MTg3MTN9.z-EbG7KsQfFv26Nuzmt_1ojRxjNPZCCS2D2jq7NTWII
 
 {
-  "email": "bashiraa@gmail.com",
+  "email": "usmana@gmail.com",
   "phone": "9876543210",
   "items": [
     {
