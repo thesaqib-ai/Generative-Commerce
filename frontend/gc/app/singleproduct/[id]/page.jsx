@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation"; // Fetching product ID from URL
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 
 export default function SingleProductPage() {
   const [product, setProduct] = useState(null);

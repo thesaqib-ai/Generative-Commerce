@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation"; // Import useSearchParams to get query params
-import { FunnelIcon } from "@heroicons/react/24/outline"; // Filter icon
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-import ProductCard from "@/components/ProductCard"; // Reuse for "You May Also Like" section
+import { FunnelIcon } from "@heroicons/react/24/outline";
+ // Filter icon
+import Navbar from "../components/navbar";
+import Footer from "..//components/footer";
+import ProductCard from "../components/ProductCard"; // Reuse for "You May Also Like" section
 
 export default function Products() {
   const [products, setProducts] = useState([]);
